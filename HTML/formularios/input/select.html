@@ -1,0 +1,44 @@
+<!-- 
+  <select>
+
+  - Controle que fornece um menu de opções
+
+  <option>
+
+  - Contém as opções a serem selecionadas
+  - Atributos necessários
+    - value
+
+  Atributos únicos
+  - multiple
+    - habilita múltiplas opções
+  - size
+    - Quando opções visíveis
+-->
+
+<!-- <label for="carselect">Qual modelo do carro</label>
+<select name="carmodel" id="carselect">
+  <option value="">Seleciona o modelo</option>
+  <option value="fiat">Uno</option>
+  <option value="audi">A3</option>
+</select> -->
+
+<!-- 
+  <optgroup>
+-->
+
+<label for="pets">Selecione um ou mais pets
+  <br>
+  <select name="pets" id="pets" multiple size="8">
+    <optgroup label="Pets terrestres">
+      <option value="dog">Cachorro</option>
+      <option value="cat">Gato</option>
+      <option value="horse" disabled>Cavalo</option>
+    </optgroup>
+    <optgroup label="Pets aéreos">
+      <option value="parrot">Papagaio</option>
+      <option value="eagle">Águia</option>
+      <option value="hawk">Falcão</option>
+    </optgroup>
+  </select>
+</label>

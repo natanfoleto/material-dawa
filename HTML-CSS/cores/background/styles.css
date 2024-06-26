@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+}
+
+header {
+  height: 175px;
+  border: 7px dashed red;
+  padding: 20px;
+  background-color: rgb(55, 100, 50);
+
+  /** Background image **/
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYe_IP7y2LbB-aV-IKD9ZYivvPeOxhxX1WXyQxA07BLQ&s");
+  
+  
+  /** Background repeat **/
+  background-repeat: no-repeat;
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+  /* background-repeat: repeat; */
+  /* background-repeat: space; */
+  /* background-repeat: round; */
+  /* background-repeat: no-repeat; */
+
+  /** Podedmos usar 2 valores: horizontal | vertical **/
+  /* background-repeat: repeat space; */
+  /* background-repeat: repeat repeat; */
+  /* background-repeat: round space; */
+  /* background-repeat: no-repeat round; */
+
+
+  /** Background size **/
+  /* background-size: cover; */
+  /* background-size: contain; */
+
+  /** Podemos usar 2 valores, o primeiro é para a largura da imagem e o segundo é para a altura **/
+  /* background-size: 40% auto; */
+  /* background-size: 2em 25%; */
+  /* background-size: auto 8px; */
+  /* background-size: auto auto; */
+
+
+  /** Background clip **/
+  /* background-origin: border-box; */
+  /* background-origin: padding-box; */
+  /* background-origin: content-box; */
+
+  /** Principais valores **/
+  /* background-clip: border-box; */
+  /* background-clip: padding-box; */
+  /* background-clip: content-box; */
+}
+
+/* main {
+  height: 175px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYe_IP7y2LbB-aV-IKD9ZYivvPeOxhxX1WXyQxA07BLQ&s");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+} */
+
+/* main {
+  background: linear-gradient(45deg, red, yellow);
+
+  background: radial-gradient(green, red, yellow);
+  background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 0, 0, 0.2));
+} */
