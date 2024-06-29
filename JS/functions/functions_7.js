@@ -6,3 +6,10 @@
   * this keyword
 */
 
+function Person() {
+  
+}
+
+const person = {
+  name: "Natan Foleto"
+}
