@@ -41,36 +41,3 @@ const date = new Date();
 console.log(name);
 console.log(date);
 
-
-
-
-
-
-
-
-
-
-
-/* 
-  Exercício
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
