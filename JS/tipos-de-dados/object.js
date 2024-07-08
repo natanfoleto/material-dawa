@@ -14,3 +14,11 @@ console.log({
     console.log('andar')
   }
 });
+
+let person = {
+  name: "Natan",
+  idade: 23,
+  andar: function() {
+    console.log('andar')
+  }
+}
