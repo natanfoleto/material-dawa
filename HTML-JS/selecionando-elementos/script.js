@@ -12,13 +12,13 @@ const elementByTagName = document.getElementsByTagName('h1') // Retorna um HTMLC
 
 // querySelector - Retorna um elemento
 
-const elementByQuerySelector = document.querySelector(".one") // Retorna um elemento
+const elementByQuerySelector = document.querySelector("p") // Retorna um elemento
 
-// querySelectorAll - Retorna um NodeList
+// querySelectorAll
 
-const elementByQuerySelectorAll = document.querySelectorAll('meta')
+const elementByQuerySelectorAll = document.querySelectorAll('meta') // Retorna um NodeList
 
-console.log(elementByClass);
+console.log(elementByQuerySelectorAll);
 
 // Qual usar?
 
